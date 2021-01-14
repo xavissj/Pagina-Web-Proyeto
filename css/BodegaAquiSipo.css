@@ -1,11 +1,48 @@
 a{
-    color: blue;
+    color: rgb(255, 255, 255);
     text-align: center;
-    font-size: 50px;
+    font-size: 20px;
 }
-#ingresoCentrado{
-    background: coral;
+img{
+    display: block;
+    margin:auto;
+    border: 2px solid black;
+    
 }
+#ingresoBienvenida{
+    
+    background: rgb(241, 16, 185);
+    text-align: center;
+    font-size: 20px;
+    margin-left: 455px;
+    margin-right: 455px;    
+    border: 2px solid black;  
+}
+#loginUsuario{
+    background: rgb(224, 11, 189);
+    text-align: center;
+    border: 2px solid black;
+    margin-left: 400px;
+    margin-right: 400px; 
+    font-size: 20px;
+     
+}
+#textoBienvenida{
+    text-align: center;
+}
+#registroBode{
+    background: rgb(224, 11, 189);
+    text-align: center;
+    border: 2px solid black;
+    margin-left: 400px;
+    margin-right: 400px; 
+    font-size: 20px;
+}
+
+
 bodega{
     background-color: cyan;
+}
+body{
+    background-color:skyblue;
 }
