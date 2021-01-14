@@ -1,5 +1,5 @@
 a{
-    color: rgb(255, 255, 255);
+    color: black(255, 255, 255);
     text-align: center;
     font-size: 20px;
 }
@@ -11,7 +11,7 @@ img{
 }
 #ingresoBienvenida{
     
-    background: rgb(241, 16, 185);
+    background: #f39e00;
     text-align: center;
     font-size: 20px;
     margin-left: 455px;
@@ -19,7 +19,7 @@ img{
     border: 2px solid black;  
 }
 #loginUsuario{
-    background: rgb(224, 11, 189);
+    background: #f39e00(224, 11, 189);
     text-align: center;
     border: 2px solid black;
     margin-left: 400px;
@@ -31,7 +31,7 @@ img{
     text-align: center;
 }
 #registroBode{
-    background: rgb(224, 11, 189);
+    background: #f39e00(224, 11, 189);
     text-align: center;
     border: 2px solid black;
     margin-left: 400px;
@@ -39,10 +39,26 @@ img{
     font-size: 20px;
 }
 
+.navbar
+{
+    height: 115px;
+    background-color: rgb(151, 62, 3);
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
 
 bodega{
-    background-color: cyan;
+    background-color: rgb(245, 212, 175);
 }
 body{
-    background-color:skyblue;
+    background-color:rgb(245, 198, 170);
 }
