@@ -3,16 +3,23 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login Bodeguero</title>
+    <link rel="stylesheet" href="./css/BodegaAquiSipo.css">
 </head>
 <body>
-    <div>
+    <div id="loginUsuario">
         <h1>Login </h1>
-        <br> Usuario: <input type="text" > 
-        <br>Contraseña: <input type="text">
-        
-<br>
-<a href="./listaProductos.html"><button>Ingresar  </button></a>
-
+        <form action="./listaProductos.html">
+            <label for="usuario">Usuario:</label><br>
+            <input type="text" id="username" name="usuario"><br>
+            <br><label for="pwd">Password:</label><br>
+            <input type="password" id="pwd" name="pwd">
+            <br><br><input type="submit" value="Ingresar">
+            
+            <br>    
+        </form>
+        <form action="./index.html" >
+            <input type="submit" value="Volver Inicio" >
+        </form>
     </div>
 </body>
 </html>
