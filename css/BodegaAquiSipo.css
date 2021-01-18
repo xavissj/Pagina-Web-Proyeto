@@ -37,6 +37,7 @@ img{
     margin-left: 400px;
     margin-right: 400px; 
     font-size: 20px;
+    background-color:  #b4fad9;
     
 
 }
@@ -96,6 +97,9 @@ input{
     background-color:#1a865d;
 
     
+}
+.formulario__register{
+    background-color: #b4fad9;
 }
 
 
