@@ -31,20 +31,20 @@
         <form action="" class="formulario__register">
             <h2>FORMULARIO DE REGISTRO</h2>
             <br><p>Nombre Completo:</p>
-            <input type="text" id="nombre"  placeholder="Ingrese nombre completo" required><br><br>
+            <input type="text" id="nombre"  required placeholder="Ingrese nombre completo" ><br><br>
             <p>Correo Electrónico:</p>
-            <input type="email" id="correo"  placeholder="Ingrese su email" required>
+            <input type="email" id="correo" required  placeholder="Ingrese su email" >
             <br><br><p>Rut:</p>
-            <input type="text" id="txt_rut"  placeholder="Ingrese su rut. Ej: 12345678-9" required
+            <input type="text" id="txt_rut"  required placeholder="Ingrese su rut. Ej: 12345678-9" 
                 oninput="rutEsValido(this)"><br><br>
             <p>Fecha de nacimiento:</p>
-            <input type="date" id="start"  placeholder="Fecha de nacimiento"><br><br>
+            <input type="date" id="start" required  placeholder="Fecha de nacimiento"><br><br>
             <p>Teléfono:</p>
-            <input type="text" id="telefono"  placeholder="Número de teléfono" class="input-100" required><br><br>
+            <input type="number" id="telefono" required  placeholder="Número de teléfono" class="input-100" ><br><br>
             <p>Ingrese su nueva contraseña, minimo 6 digitos:</p>
-            <input type="password" id="contraseña_registro"  placeholder="Nueva Clave" class="input-100" required minlength="6"><br><br>
+            <input type="password" id="contraseña_registro" required  placeholder="Nueva Clave" class="input-100"  minlength="6"><br><br>
             <p>Reingrese su contraseña:</p>
-            <input type="password" id="contraseña_registro"  placeholder="Nueva Clave" class="input-100" required minlength="6">
+            <input type="password" id="contraseña_registro" required  placeholder="Nueva Clave" class="input-100"  minlength="6">
             <div class="col-12 col-md-4">
                 <br><br>
                 <div class="button-container">
@@ -55,6 +55,9 @@
             </div>
             <br><br>
     </div>
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+    <script src="./js/registro.js" type="text/javascript">
+    </script>
 
 
 </body>
