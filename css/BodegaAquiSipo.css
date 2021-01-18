@@ -6,7 +6,7 @@ a{
 img{
     display: block;
     margin:auto;
-    border: 2px solid black;
+    border: 8px solid black;
     
 }
 .ingresoBienvenida{
@@ -45,10 +45,11 @@ img{
 {
     height: 115px;
     background-color:#1a865d;
-    color: black;
+    color: rgb(252, 245, 245);
     display: flex;
     align-items: center;
     justify-content: space-between;
+    padding-left: 15px;
 }
 
 .container{
@@ -63,7 +64,7 @@ bodega{
 }
 body{
 
-    background-color: #fff;
+    background-color:lightcyan;
 }
 
 a{text-decoration: none; color: rgb(0, 0, 0);}
