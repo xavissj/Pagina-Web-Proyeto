@@ -78,3 +78,5 @@ function Clear() {
     $("#txtCategoria").val("");
     $("#hfRowIndex").val("");
 }
+
+    
