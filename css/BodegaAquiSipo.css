@@ -25,6 +25,7 @@ img{
     margin-left: 400px;
     margin-right: 400px; 
     font-size: 20px;
+    
      
 }
 #textoBienvenida{
@@ -101,6 +102,12 @@ input{
 .formulario__register{
     background-color: #b4fad9;
 }
-
-
+footer{
+    text-align: center;
+    font-size: 20px;
+}
+.separador{
+    text-align: center;
+    
+}
 
