@@ -1,5 +1,5 @@
 a{
-    color: rgb(255, 255, 255);
+    color: black;
     text-align: center;
     font-size: 20px;
 }
@@ -9,17 +9,17 @@ img{
     border: 2px solid black;
     
 }
-#ingresoBienvenida{
+.ingresoBienvenida{
     
-    background: rgb(241, 16, 185);
+    background:  #b4fad9;
     text-align: center;
     font-size: 20px;
     margin-left: 455px;
     margin-right: 455px;    
     border: 2px solid black;  
 }
-#loginUsuario{
-    background: rgb(224, 11, 189);
+.loginUsuario{
+    background-color:#b4fad9;
     text-align: center;
     border: 2px solid black;
     margin-left: 400px;
@@ -30,19 +30,63 @@ img{
 #textoBienvenida{
     text-align: center;
 }
-#registroBode{
-    background: rgb(224, 11, 189);
+.registroBode{
+    background: #000000(224, 11, 189);
     text-align: center;
     border: 2px solid black;
     margin-left: 400px;
     margin-right: 400px; 
     font-size: 20px;
+    
+
 }
 
+.navbar
+{
+    height: 115px;
+    background-color:#1a865d;
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
 
 bodega{
-    background-color: cyan;
+    background-color:#fff;
 }
 body{
-    background-image: url(../img/469.jpg);
+
+    background-color: #fff;
 }
+
+a{text-decoration: none; color: rgb(0, 0, 0);}
+.button-container{
+    display:grid;
+    gap: 140px;
+    grid-template-columns: 0.1fr 1fr;
+    width: 100%;
+    padding-left: 520px;
+    
+}
+input{
+    font-size: 18px;
+    height: 40px;
+    width: 400px;
+    text-align: center;
+    
+}
+.btnInicio{
+    float: right;
+    padding-right: 40px;
+}
+
+
+
+
