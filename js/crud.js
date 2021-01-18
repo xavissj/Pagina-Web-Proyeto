@@ -10,10 +10,25 @@ $(function () {
         var edit = "<a class='edit' href='JavaScript:void(0);' >Editar</a>";
         var del = "<a class='delete' href='JavaScript:void(0);'>Eliminar  </a>";
 
-        if (sku == "" ) {
+        if (sku == "") {
             alert("SKU vacio");
-        } else {
-            var table = "<tr><td>" + sku + "</td><td>" + nombre + "</td><td>" + fecha + "</td><td>"+ cantidad + "</td><td>"+ categoria + "</td><td>" + edit + "</td><td>" + del + "</td></tr>";
+        } else if (nombre == "") {
+            alert("Nombre vacío")
+        }
+        else if (nombre.lenght>2) {
+            alert("Supera máximo")
+        }
+        else if (fecha == "") {
+            alert("Fecha Vacío")
+        }
+        else if (cantidad == "") {
+            alert("Cantidad Vacío")
+        }
+        else if (categoria == "") {
+            alert("Categoría Vacío")
+        }
+        else {
+            var table = "<tr><td>" + sku + "</td><td>" + nombre + "</td><td>" + fecha + "</td><td>" + cantidad + "</td><td>" + categoria + "</td><td>" + edit + "</td><td>" + del + "</td></tr>";
             $("#tblCrud").append(table);
         }
         sku = $("#txtSku").val("");
@@ -23,10 +38,10 @@ $(function () {
         categoria = $("#txtCategoria").val("");
         Clear();
     });
-    
+
 
     $('#btnUpdate').on('click', function () {
-      var sku, nombre, fecha, cantidad, categoria;
+        var sku, nombre, fecha, cantidad, categoria;
         sku = $("#txtSku").val();
         nombre = $("#txtNombre").val();
         fecha = $("#txtFecha").val();
@@ -51,7 +66,7 @@ $(function () {
             e.preventDefault();
         }
     });
-    
+
 
     $('#btnClear').on('click', function () {
         Clear();
@@ -79,4 +94,4 @@ function Clear() {
     $("#hfRowIndex").val("");
 }
 
-    
+
