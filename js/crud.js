@@ -23,6 +23,7 @@ $(function () {
         categoria = $("#txtCategoria").val("");
         Clear();
     });
+    
 
     $('#btnUpdate').on('click', function () {
       var sku, nombre, fecha, cantidad, categoria;
@@ -50,6 +51,7 @@ $(function () {
             e.preventDefault();
         }
     });
+    
 
     $('#btnClear').on('click', function () {
         Clear();
