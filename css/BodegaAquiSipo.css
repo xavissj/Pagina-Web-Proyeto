@@ -30,13 +30,14 @@ img{
 #textoBienvenida{
     text-align: center;
 }
-#registroBode{
+.registroBode{
     background: #000000(224, 11, 189);
     text-align: center;
     border: 2px solid black;
     margin-left: 400px;
     margin-right: 400px; 
     font-size: 20px;
+    
 
 }
 
@@ -70,7 +71,7 @@ a{text-decoration: none; color: rgb(0, 0, 0);}
     gap: 140px;
     grid-template-columns: 0.1fr 1fr;
     width: 100%;
-    padding-left: 110px;
+    padding-left: 520px;
     
 }
 input{
@@ -78,6 +79,11 @@ input{
     height: 40px;
     width: 400px;
     text-align: center;
+    
+}
+.btnInicio{
+    float: right;
+    padding-right: 40px;
 }
 
 
