@@ -25,9 +25,9 @@
 
     <select name="seleccionBodega" id="slctBo" class="selector">
       <option value="1">Seleccione una bodega</option>
-      <option value="1">Bodega 1</option>
-      <option value="1">Bodega 2</option>
-      <option value="1">Bodega 3</option>
+      <option value="2">Bodega 1</option>
+      <option value="3">Bodega 2</option>
+      <option value="4">Bodega 3</option>
     </select>
 
     <input type="hidden" id="hfRowIndex" value="" />
@@ -47,7 +47,7 @@
         <tr>
             <td>Fecha</td>
             <td>
-                <input type="text" name="Fecha" id="txtFecha" value=""  />
+                <input type="date" name="Fecha" id="txtFecha" value=""  />
             </td>
         </tr>
         <tr>
@@ -60,16 +60,26 @@
         <tr>
             <td>Categoria</td>
             <td>
-                <input type="text" name="Cantidad" id="txtCategoria" value="" />
+                <select name="seleccionBodega" id="txtCategoria" class="selector">
+                    <option value="1">Seleccione una Categoria</option>
+                    <option value="2">Electrónico</option>
+                    <option value="3">Hogar</option>
+                    <option value="4">Jardin</option>
+                    <option value="5">Otro</option>
+                  </select>
             </td>
         </tr>
         <tr>
             <td>
                 <button type='button' id='btnAdd' class="btn btn-success">Agregar</button>
                 <button type='button' id='btnUpdate' style="display: none;" class="btn btn-success">Editar</button>
+                
             </td>
             <td>
                 <button type='button' id='btnClear' class="btn btn-success">Limpiar</button>
+            </td>
+            <td>
+                <button type='button' id='btnBuscar' class="btn btn-success">Buscar</button>
             </td>
         </tr>
     </table>
