@@ -86,7 +86,16 @@ input{
     float: right;
     padding-right: 40px;
 }
+.selector{
+    margin-left: 20px;
+    font-size: 18px;
+    width: 500px;
+}
+#tblCrud{
+    background-color:#1a865d;
 
+    
+}
 
 
 
