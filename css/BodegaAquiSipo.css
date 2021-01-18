@@ -110,4 +110,19 @@ footer{
     text-align: center;
     
 }
+.bodegaBuscar{
+    background-color:#b4fad9;
+    text-align: center;
+    font-size: 15px;
+    width: 1000px; 
+    border: 2px solid black; 
+
+}
+.listadoFiltro{
+    background-color:#b4fad9;
+    text-align: center;
+    font-size: 15px;
+    width: 1000px; 
+    border: 2px solid black; 
+}
 

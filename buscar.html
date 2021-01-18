@@ -32,19 +32,23 @@
                     <button type="submit" class="btn btn-success">Salir</button>
                 </form>
 
+                <div class="bodegaBuscar">
+                    <br />
+                <h2>Seleccione la bodega a la que desea ingresar</h2><br>
+                <select name="seleccionBodega" id="slctBo" class="selector">
+                    <option value="1">Seleccione una bodega</option>
+                    <option value="2">Bodega 1</option>
+                    <option value="3">Bodega 2</option>
+                    <option value="4">Bodega 3</option>
+                  </select><br><br>
 
-                <br />
-                <h3>Seleccione la bodega que desea administrar:</h3>
-                <br />
-                <input type="radio" name="rdoOpcion" value="1" /> Opción 1<br />
-                <input type="radio" name="rdoOpcion" value="1" /> Opción 2<br />
-                <input type="radio" name="rdoOpcion" value="1" /> Opción 3<br />
-                <input type="radio" name="rdoOpcion" value="1" /> Opción 4<br />
+                </div>
+                
             </div>
 
-            <br />
-
-            <h3>Lista de productos:</h3>
+            <br /><br>
+            <div class="listadoFiltro">
+                <br><h3>Lista de productos:</h3>
 
             <br />
 
@@ -59,9 +63,13 @@
             <button type="button" class="btn btn-success">Filtrar</button>
             <br />
             <br />
+
+
+            </div>
+            
             <div>
 
-                <button type="button" class="btn btn-success">Buscar</button>
+                <br><button type="button" class="btn btn-success">Buscar</button>
 
 
                 <table class="table">
