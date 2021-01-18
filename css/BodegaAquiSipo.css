@@ -18,8 +18,8 @@ img{
     margin-right: 455px;    
     border: 2px solid black;  
 }
-#loginUsuario{
-    background: #b4fad9(224, 11, 189);
+.loginUsuario{
+    background-color:#b4fad9;
     text-align: center;
     border: 2px solid black;
     margin-left: 400px;
