@@ -1,357 +1,195 @@
-<<<<<<< HEAD
-            a {
-                color: rgb(41, 37, 37);
-                text-align: center;
-                font-size: 20px;
-            }
-            
-            img {
-                display: block;
-                margin: auto;
-                border: 5px solid black;
-            }
-            
-            main {
-                width: 100%;
-                padding: 20px;
-                margin: auto;
-                margin-top: 100px;
-            }
-            
-            .linea {
-                background: #6ab89a;
-                height: 5px;
-                width: 100%;
-                display: block;
-            }
-            
-            .galeria {
-                display: grid;
-                grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
-                width: 95%;
-                margin: auto;
-                grid-gap: 10px;
-                padding: 40px 0;
-                overflow: hidden;
-            }
-            
-            .galeria img {
-                width: 100%;
-                vertical-align: top;
-                height: 300px;
-                object-fit: cover;
-            }
-            
-            .contenedor__todo {
-                width: 100%;
-                max-width: 800px;
-                margin: auto;
-                position: relative;
-            }
-            
-            .ingresoBienvenida {
-                background: #b4fad9;
-                text-align: center;
-                font-size: 20px;
-                margin-left: 455px;
-                margin-right: 455px;
-                border: 2px solid black;
-                width: 100%;
-                padding: 20px;
-                margin: auto;
-            }
-            
-            .loginUsuario {
-                background-color: #b4fad9;
-                text-align: center;
-                border: 2px solid black;
-                margin-left: 400px;
-                margin-right: 400px;
-                font-size: 20px;
-            }
-            
-            #textoBienvenida {
-                text-align: center;
-            }
-            
-            .registroBode {
-                background: #000000(224, 11, 189);
-                text-align: center;
-                border: 2px solid black;
-                margin-left: 400px;
-                margin-right: 400px;
-                font-size: 20px;
-                background-color: #b4fad9;
-            }
-            
-            .navbar {
-                height: 80px;
-                background-color: #1a865d;
-                color: rgb(252, 245, 245);
-                display: flex;
-                align-items: center;
-                justify-content: space-between;
-                padding-left: 15px;
-            }
-            
-            .container {
-                display: flex;
-                justify-content: center;
-                align-items: center;
-                flex-direction: column;
-            }
-            
-            bodega {
-                background-color: #fff;
-            }
-            
-            body {
-                background-color: lightcyan;
-            }
-            
-            a {
-                text-decoration: none;
-                color: rgb(0, 0, 0);
-            }
-            
-            .button-container {
-                display: grid;
-                gap: 140px;
-                grid-template-columns: 0.1fr 1fr;
-                width: 100%;
-                padding-left: 520px;
-            }
-            
-            input {
-                font-size: 18px;
-                height: 40px;
-                width: 400px;
-                text-align: center;
-            }
-            
-            .btnInicio {
-                float: right;
-                padding-right: 40px;
-            }
-            
-            .selector {
-                margin-left: 20px;
-                font-size: 18px;
-                width: 500px;
-            }
-            
-            #tblCrud {
-                background-color: #1a865d;
-            }
-            
-            .formulario__register {
-                background-color: #b4fad9;
-            }
-            
-            footer {
-                text-align: center;
-                font-size: 20px;
-            }
-            
-            .separador {
-                text-align: center;
-            }
-            
-            .bodegaBuscar {
-                background-color: #b4fad9;
-                text-align: center;
-                font-size: 15px;
-                width: 1000px;
-                border: 2px solid black;
-            }
-            
-            .listadoFiltro {
-                background-color: #b4fad9;
-                text-align: center;
-                font-size: 15px;
-                width: 1000px;
-                border: 2px solid black;
-            }
-            
-            @media screen and (max-width: 850px) {
-                main {
-                    margin-top: 50px;
-                }
-                .loginUsuario {
-                    top: -10px;
-                    left: -5px;
-                    margin: auto;
-                }
-                .loginUsuario form {
-                    position: relative;
-                }
-                .formulario__register {
-                    top: -10px;
-                    left: -5px;
-                    margin: auto;
-                }
-                .formulario__register form {
-                    position: relative;
-                }
-            }
-=======
-    a {
-        color: rgb(41, 37, 37);
-        text-align: center;
-        font-size: 20px;
+<<<<<<< HEAD a {
+    color: rgb(41, 37, 37);
+    text-align: center;
+    font-size: 20px;
+}
+
+img {
+    display: block;
+    margin: auto;
+    border: 5px solid black;
+}
+
+main {
+    width: 100%;
+    padding: 20px;
+    margin: auto;
+    margin-top: 100px;
+}
+
+.linea {
+    background: #6ab89a;
+    height: 5px;
+    width: 100%;
+    display: block;
+}
+
+.galeria {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    width: 95%;
+    margin: auto;
+    grid-gap: 10px;
+    padding: 40px 0;
+    overflow: hidden;
+}
+
+.galeria img {
+    width: 100%;
+    vertical-align: top;
+    height: 300px;
+    object-fit: cover;
+}
+
+.contenedor__todo {
+    width: 100%;
+    max-width: 800px;
+    margin: auto;
+    position: relative;
+}
+
+.ingresoBienvenida {
+    background: #b4fad9;
+    text-align: center;
+    font-size: 20px;
+    margin-left: 455px;
+    margin-right: 455px;
+    border: 2px solid black;
+    width: 100%;
+    padding: 20px;
+    margin: auto;
+}
+
+.loginUsuario {
+    background-color: #b4fad9;
+    text-align: center;
+    border: 2px solid black;
+    margin-left: 400px;
+    margin-right: 400px;
+    font-size: 20px;
+}
+
+#textoBienvenida {
+    text-align: center;
+}
+
+.registroBode {
+    background: #000000(224, 11, 189);
+    text-align: center;
+    border: 2px solid black;
+    margin-left: 400px;
+    margin-right: 400px;
+    font-size: 20px;
+    background-color: #b4fad9;
+}
+
+.navbar {
+    height: 80px;
+    background-color: #1a865d;
+    color: rgb(252, 245, 245);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 15px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+bodega {
+    background-color: #fff;
+}
+
+body {
+    background-color: lightcyan;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+
+.button-container {
+    display: grid;
+    gap: 140px;
+    grid-template-columns: 0.1fr 1fr;
+    width: 100%;
+    padding-left: 520px;
+}
+
+input {
+    font-size: 18px;
+    height: 40px;
+    width: 400px;
+    text-align: center;
+}
+
+.btnInicio {
+    float: right;
+    padding-right: 40px;
+}
+
+.selector {
+    margin-left: 20px;
+    font-size: 18px;
+    width: 500px;
+}
+
+#tblCrud {
+    background-color: #1a865d;
+}
+
+.formulario__register {
+    background-color: #b4fad9;
+}
+
+footer {
+    text-align: center;
+    font-size: 20px;
+}
+
+.separador {
+    text-align: center;
+}
+
+.bodegaBuscar {
+    background-color: #b4fad9;
+    text-align: center;
+    font-size: 15px;
+    width: 1000px;
+    border: 2px solid black;
+}
+
+.listadoFiltro {
+    background-color: #b4fad9;
+    text-align: center;
+    font-size: 15px;
+    width: 1000px;
+    border: 2px solid black;
+}
+
+@media screen and (max-width: 850px) {
+    main {
+        margin-top: 50px;
     }
-    
-    img {
-        display: block;
-        margin: auto;
-        border: 5px solid black;
-        width: 50%;
-        
-        
-    }
-    
-    .linea {
-        background: #6ab89a;
-        height: 5px;
-        width: 100%;
-        display: block;
-    }
-    
-    .galeria {
-        display: grid;
-        grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
-        width: 95%;
-        margin: auto;
-        grid-gap: 10px;
-        padding: 40px 0;
-        overflow: hidden;
-    }
-    
-    .galeria img {
-        width: 100%;
-        vertical-align: top;
-        height: 300px;
-        object-fit: cover;
-    }
-    
-    .ingresoBienvenida {
-        background: #b4fad9;
-        text-align: center;
-        font-size: 20px;
-        margin-left: 455px;
-        margin-right: 455px;
-        border: 2px solid black;
-    }
-    
     .loginUsuario {
-        background-color: #b4fad9;
-        text-align: center;
-        border: 2px solid black;
-        margin-left: 400px;
-        margin-right: 400px;
-        font-size: 20px;
+        top: -10px;
+        left: -5px;
+        margin: auto;
     }
-    
-    #textoBienvenida {
-        text-align: center;
+    .loginUsuario form {
+        position: relative;
     }
-    
-    .registroBode {
-        background: #000000(224, 11, 189);
-        text-align: center;
-        border: 2px solid black;
-        margin-left: 400px;
-        margin-right: 400px;
-        font-size: 20px;
-        background-color: #b4fad9;
-    }
-    
-    .navbar {
-        height: 80px;
-        background-color: #1a865d;
-        color: rgb(252, 245, 245);
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-        padding-left: 15px;
-    }
-    
-    .container {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-direction: column;
-    }
-    
-    bodega {
-        background-color: #fff;
-    }
-    
-    body {
-        background-color: lightcyan;
-    }
-    
-    a {
-        text-decoration: none;
-        color: rgb(0, 0, 0);
-    }
-    
-    .button-container {
-        display: grid;
-        gap: 140px;
-        grid-template-columns: 0.1fr 1fr;
-        width: 100%;
-        padding-left: 520px;
-    }
-    
-    input {
-        font-size: 18px;
-        height: 40px;
-        width: 400px;
-        text-align: center;
-    }
-    
-    .btnInicio {
-        float: right;
-        padding-right: 40px;
-    }
-    
-    .selector {
-        margin-left: 20px;
-        font-size: 18px;
-        width: 500px;
-    }
-    
-    #tblCrud {
-        background-color: #1a865d;
-    }
-    
     .formulario__register {
-        background-color: #b4fad9;
+        top: -10px;
+        left: -5px;
+        margin: auto;
     }
-    
-    footer {
-        text-align: center;
-        font-size: 20px;
+    .formulario__register form {
+        position: relative;
     }
-    
-    .separador {
-        text-align: center;
-    }
-    
-    .bodegaBuscar {
-        background-color: #b4fad9;
-        text-align: center;
-        font-size: 15px;
-        width: 1000px;
-        border: 2px solid black;
-    }
-    
-    .listadoFiltro {
-        background-color: #b4fad9;
-        text-align: center;
-        font-size: 15px;
-        width: 1000px;
-        border: 2px solid black;
-    }
->>>>>>> refs/remotes/origin/master
+}
