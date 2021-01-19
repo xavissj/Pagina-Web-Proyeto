@@ -5,6 +5,7 @@
     <title>Login Bodeguero</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
     <link rel="stylesheet" href="./css/BodegaAquiSipo.css">
+     
     
 
 </head>
@@ -13,33 +14,45 @@
     <div class="navbar"> 
         <div class="logo">
             <h1>Bodega Aqui Sipo</h1>
-
         </div>
-
     </div>
 
     
-    <br><div class="loginUsuario" id="login">
-        <br><h1>Login </h1>
-        <form action="./listaProductos.html" id="mi-login" n>
+    <br>
+
+    <div class="loginUsuario" id="login">
+        <br>
+        <h1>Login </h1>
+
+        <form action="./listaProductos.html" id="mi-login" >
             <label for="usuario">Usuario:</label><br>
-            <input type="text" id="username" name="usuario" required placeholder="Ingrese usuario" ><br>
-            <br><label for="pwd">Password:</label><br>
-            <input type="password" id="pwd" name="pwd" required placeholder="Ingrese contraseña" minlength="6" >
-            <br><br><button type="submit" class="btn btn-success" id="btnIngresar">Ingresar</button>
-            
+            <input type="text" id="username" name="username"    placeholder="Ingrese usuario" ><br>
+            <br>
+            <label for="pwd">Contraseña:</label><br>
+            <input type="password" id="contraseña" name="contraseña"   required placeholder="Ingrese contraseña" minlength="6" >
+            <br><br>
+            <button type="submit" class="btn btn-success" id="btnIngresar">Ingresar</button>            
             <br>    
         </form>
+
         <form action="./index.html" >
             <button type="submit" class="btn btn-success">Volver Inicio</button>
         </form>
     </div>
-    <br><br><div class="separador">
+
+    <br><br>
+
+    <div class="separador">
         ==================================================================================================================================================================================================
     </div> 
+
     <footer>
         <p>Author: Constanza Tobar, Javiera Caro, Xavier Bonilla </p>
         <p></p>
     </footer>
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/jquery-validation@1.19.3/dist/jquery.validate.min.js"> </script>
+    <script src="./js/formulario_jquery.js"> </script>
+    
 </body>
 </html>
