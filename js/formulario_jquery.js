@@ -10,5 +10,7 @@ $('#btnIngresar').on('click', function () {
         alert("Porfavor ingrese un usuario y contraseña valida");
         return false;
 
-    }    
+    } 
+
+    
 });
